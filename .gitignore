@@ -1,2 +1,10 @@
 # dependencies
 node_modules
+
+# build output
+.react-router
+build
+dist
+
+# sensitive data
+.env
