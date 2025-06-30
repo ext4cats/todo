@@ -9,7 +9,7 @@ import * as path from 'node:path';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['**/build', '**/dist'] },
+  { ignores: ['**/build', '**/dist', '**/.react-router'] },
   {
     files: ['client/**/*.{ts,tsx}'],
     extends: [
