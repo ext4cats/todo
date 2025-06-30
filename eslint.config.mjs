@@ -38,10 +38,7 @@ export default tseslint.config(
     ],
     languageOptions: {
       ecmaVersion: 2022,
-      globals: {
-        ...globals.node,
-        ...globals.jest,
-      },
+      globals: globals.node,
       parserOptions: {
         projectService: true,
         tsconfigRootDir: path.resolve(import.meta.dirname, 'server'),
