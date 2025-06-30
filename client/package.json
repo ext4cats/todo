@@ -1,7 +1,10 @@
 {
-  "name": "client",
-  "private": true,
+  "name": "todo-client",
+  "version": "0.1.0",
   "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "ext4cats <ext4cats@farmarrays.com>",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
